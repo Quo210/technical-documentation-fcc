@@ -4,7 +4,6 @@ Objective: Build an app that is functionally similar to https://technical-docume
 User Stories:
 
 You can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation)
-
 Within the #main-doc element, you can see several section elements, each with a class of main-section. There should be a minimum of five
 The first element within each .main-sectiomainn should be a header element, which contains text that describes the topic of that section.
 
