@@ -130,3 +130,11 @@ code{
 .back-to-top{
     margin-bottom: 1rem;
 }
+
+::-webkit-scrollbar{
+    background-color: var(--green);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--teal);
+}
