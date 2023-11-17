@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technical Documentation: Prism.js</title>
-    <link rel="stylesheet" href="prism.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-material-oceanic.min.css" integrity="sha512-eZLfwsd8ea09LF9eWUmMdXtWTEyOT/5j5IsCbC/Iy8DJr9jehve4s+6V+zqKMRYUpSSKX2ovLPiEwCzlIN8JUQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,17 +15,17 @@
         <p>It provides a set of pre-built CSS classes and JavaScript components that can be used to create syntax highlighting for various programming languages.</p>
         <pre>
             <code class="language-html">
-              &lt;section class="main-section" id="topic_4"&gt;
-                  &lt;header&gt;Topic 4&lt;/header&gt;
-                  &lt;p&gt;Sample Text&lt;/p&gt;
-                  &lt;p&gt;Sample Text&lt;/p&gt;
-                  &lt;code&gt;sample code&lt;/code&gt;
-                  &lt;div class="code-mock"&gt;&lt;/div&gt;
-                  &lt;ul&gt;
-                      &lt;li&gt;Sample Text&lt;/li&gt;
-                      &lt;li&gt;Sample Text&lt;/li&gt;
-                  &lt;/ul&gt;
-              &lt;/section&gt;
+    &lt;section class="main-section" id="topic_4"&gt;
+        &lt;header&gt;Topic 4&lt;/header&gt;
+        &lt;p&gt;Sample Text&lt;/p&gt;
+        &lt;p&gt;Sample Text&lt;/p&gt;
+        &lt;code&gt;sample code&lt;/code&gt;
+        &lt;div class="code-mock"&gt;&lt;/div&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Sample Text&lt;/li&gt;
+            &lt;li&gt;Sample Text&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/section&gt;
             </code>
         </pre>
         <ul>
@@ -39,11 +39,11 @@
         <p>Its polished and elegant look enhances the experience of interacting with your website.</p>
         <pre>
             <code class="language-css">
-              div {
-                background-color: black;
-                width: 400px;
-                border-radius: 10px;
-              }
+    div {
+    background-color: black;
+    width: 400px;
+    border-radius: 10px;
+    }
             </code>
           </pre>
         <ul>
@@ -57,17 +57,17 @@
         <p>Download and place both <em>JavaScript</em> and <em>CSS</em> files in your working directory. Don't forget to link them!</p>
         <pre>
             <code class="language-html">
-              &lt;!DOCTYPE html&gt;
-              &lt;html&gt;
-              &lt;head&gt;
-                  ...
-                  &lt;link href="themes/prism.css" rel="stylesheet" /&gt;
-              &lt;/head&gt;
-              &lt;body&gt;
-                  ...
-                  &lt;script src="prism.js"&gt;&lt;/script&gt;
-              &lt;/body&gt;
-              &lt;/html&gt;
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+        ...
+        &lt;link href="themes/prism.css" rel="stylesheet" /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        ...
+        &lt;script src="prism.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
             </code>
           </pre>
         <ul>
@@ -82,22 +82,22 @@
         <pre>
             <code class="language-html">
     &lt;section class=&quot;main-section&quot; id=&quot;topic_4&quot;&gt;
-    &lt;header&gt;Flagging the correct place to be tweaked&lt;/header&gt;
-    &lt;p&gt;To watch the magic happen now you only have to add a class indicating the coding language to a code block and it's done!&lt;/p&gt;
-    &lt;p&gt;The library will only work when the class is applied to a &lt;em&gt;code&lt;/em&gt; HTML element. This is done due to semantical reasons, as more devs join the team around the world we all try to conform to the same rules. That way we understand each other easily.&lt;/p&gt;
-    &lt;pre&gt;
-        &lt;code class=&quot;language-html&quot;&gt;
-            &lt;div class=&quot;sample&quot;&gt;
-            Read Here! --&gt; &lt;p&gt;This sample code that you are reading right now it's exactly the same code in which the section you are reading is built, 
-            it's just formatted with Prism.js&lt;/p&gt;
-            &lt;/div&gt;
-        &lt;/code&gt;
-    &lt;/pre&gt;
-    &lt;ul&gt;
-        &lt;li&gt;Some languages such as HTML require to follow one additional rule, which is &quot;Preformatting&quot; the text, so writing an HTML tag doesn't make the browser &lt;i&gt;make&lt;/i&gt; that tag!&lt;/li&gt;
-        &lt;li&gt;Besides that it's already to go! You can further style the pre and code elements to resize your codeblocks into something that suits your current needs.&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/section&gt;
+        &lt;header&gt;Flagging the correct place to be tweaked&lt;/header&gt;
+        &lt;p&gt;To watch the magic happen now you only have to add a class indicating the coding language to a code block and it's done!&lt;/p&gt;
+        &lt;p&gt;The library will only work when the class is applied to a &lt;em&gt;code&lt;/em&gt; HTML element. This is done due to semantical reasons, as more devs join the team around the world we all try to conform to the same rules. That way we understand each other easily.&lt;/p&gt;
+        &lt;pre&gt;
+            &lt;code class=&quot;language-html&quot;&gt;
+                &lt;div class=&quot;sample&quot;&gt;
+                Read Here! --&gt; &lt;p&gt;This sample code that you are reading right now it's exactly the same code in which the section you are reading is built, 
+                it's just formatted with Prism.js&lt;/p&gt;
+                &lt;/div&gt;
+            &lt;/code&gt;
+        &lt;/pre&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Some languages such as HTML require to follow one additional rule, which is &quot;Preformatting&quot; the text, so writing an HTML tag doesn't make the browser &lt;i&gt;make&lt;/i&gt; that tag!&lt;/li&gt;
+            &lt;li&gt;Besides that it's already to go! You can further style the pre and code elements to resize your codeblocks into something that suits your current needs.&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/section&gt;
             </code>
         </pre>
         <ul>
@@ -129,17 +129,8 @@
     <a href="#topic_5" class="nav-link">Text Preformatting Explained</a>
 </nav>
 <footer>Website made by <a class="simple-a" href="" target="_blank">Gabriel Rengifo</a></footer>
-<script src="prism.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js
+"></script>
 </body>
 </html>
-
-<!--  Information about Prism
-
-      Prism.js is designed to be easy to use and extendable, with a plugin architecture that allows you to add new languages and features. Prism.js is very easy to use and requires minimal setup. You can include the prism.css and prism.js files in your HTML document and use proper HTML5 code tags to display your code snippets. Prism.js also supports parallelism with Web Workers, which makes it incredibly fast. One of the most interesting features of Prism.js is its support for multiple themes. You can choose from up to 8 different color themes to match the look and feel of your website. Prism.js is a great choice if you need a lightweight and easy-to-use syntax highlighting library for your web pages.
-
-Origen: Conversación con Bing, 15/11/2023
-(1) Cómo y por qué he incorporado Prism.js en mi web. https://israelescuer.com/como-y-por-que-he-incorporado-prism-js-en-mi-web/.
-(2) prism.js. https://prismjs.com/.
-(3) prismjs - npm. https://www.npmjs.com/package/prismjs.
-
- -->
